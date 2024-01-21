@@ -4,21 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <a href="index.html">Главная</a>
-    <a href="info\about.html">Обо мне</a>
-    <a href="register.html">Регистрация</a>
-    <a href="catalog/catalog.html">Каталог</a>
+    <a class="links" href="index.html">Главная</a>
+    <a class="links" href="info\about.html">Обо мне</a>
+    <a class="links" href="register.html">Регистрация</a>
+    <a class="links" href="catalog/catalog.html">Каталог</a>
 
-    <h1>Оставить заявку</h1>
+    <h1 class="headers">Оставить заявку</h1>
     <form action="">
-        <p>Введите имя</p><br>
-        <input type="text" placeholder="Ваше имя">
-        <p>Введите email</p><br>
-        <input type="text" placeholder="email@email.ru" pattern=".+@"><br>
+        Введите имя &nbsp &nbsp <input class="form" type="text" placeholder="Ваше имя"> <br> Введите email &nbsp <input class="form" type="text" placeholder="email@email.ru" pattern=".+@"> <br>
         <button type="submit">Отправить</button>
         <button type="reset">Стереть</button>
     </form>
